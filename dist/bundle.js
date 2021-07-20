@@ -9,6 +9,16 @@
 /******/ (() => { // webpackBootstrap
 /******/ 	var __webpack_modules__ = ({
 
+/***/ "./node_modules/jquery/dist/jquery.js":
+/*!********************************************!*\
+  !*** ./node_modules/jquery/dist/jquery.js ***!
+  \********************************************/
+/***/ (() => {
+
+eval("throw new Error(\"Module parse failed: Unexpected token (936:9)\\nYou may need an appropriate loader to handle this file type, currently no loaders are configured to process this file. See https://webpack.js.org/concepts#loaders\\n|  * @param {Function} fn Passed the created element and returns a boolean result\\n|  */\\n> function assert( fn ) {\\n| \\tvar el = document.createElement( \\\"fieldset\\\" );\\n| \");\n\n//# sourceURL=webpack://webpack-practice/./node_modules/jquery/dist/jquery.js?");
+
+/***/ }),
+
 /***/ "./src/index.js":
 /*!**********************!*\
   !*** ./src/index.js ***!
@@ -16,7 +26,7 @@
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _modules_app_service__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./modules/app.service */ \"./src/modules/app.service.js\");\n/* harmony import */ var _modules_config__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./modules/config */ \"./src/modules/config.js\");\n/* harmony import */ var _modules_header_component__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./modules/header.component */ \"./src/modules/header.component.js\");\n/* harmony import */ var _modules_header_component__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_modules_header_component__WEBPACK_IMPORTED_MODULE_2__);\n\r\n\r\n\r\n\r\nconsole.log(\"Config key:\", _modules_config__WEBPACK_IMPORTED_MODULE_1__.config.key);\r\n\r\nconst service = new _modules_app_service__WEBPACK_IMPORTED_MODULE_0__.default(\"Hello world!\");\r\nservice.log();\r\n\n\n//# sourceURL=webpack://webpack-practice/./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _modules_app_service__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./modules/app.service */ \"./src/modules/app.service.js\");\n/* harmony import */ var _modules_config__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./modules/config */ \"./src/modules/config.js\");\n/* harmony import */ var _modules_header_component__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./modules/header.component */ \"./src/modules/header.component.js\");\n\r\n\r\n\r\n\r\nconsole.log(\"Config key:\", _modules_config__WEBPACK_IMPORTED_MODULE_1__.config.key);\r\n\r\nconst service = new _modules_app_service__WEBPACK_IMPORTED_MODULE_0__.default(\"Hello world!\");\r\nservice.log();\r\n\n\n//# sourceURL=webpack://webpack-practice/./src/index.js?");
 
 /***/ }),
 
@@ -46,9 +56,10 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /*!*****************************************!*\
   !*** ./src/modules/header.component.js ***!
   \*****************************************/
-/***/ (() => {
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("// import $ from \"jquery\";\r\n\r\n// $(\"<h1 />\").text(\"Hello world from JQuery\").appendTo($(\"header\"));\r\n\r\nconst header = document.querySelector(\"header\");\r\n\r\nheader.insertAdjacentHTML(\"afterbegin\", \"<h1></h1>\");\r\n\r\nconst h1 = document.querySelector(\"h1\");\r\n\r\nh1.textContent = \"Hello world from JQuery\";\r\n\n\n//# sourceURL=webpack://webpack-practice/./src/modules/header.component.js?");
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var jquery__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! jquery */ \"./node_modules/jquery/dist/jquery.js\");\n/* harmony import */ var jquery__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(jquery__WEBPACK_IMPORTED_MODULE_0__);\n\r\n\r\njquery__WEBPACK_IMPORTED_MODULE_0___default()(\"<h1 />\").text(\"Hello world from JQuery\").appendTo(jquery__WEBPACK_IMPORTED_MODULE_0___default()(\"header\"));\r\n\r\n// const header = document.querySelector(\"header\");\r\n\r\n// header.insertAdjacentHTML(\"afterbegin\", \"<h1></h1>\");\r\n\r\n// const h1 = document.querySelector(\"h1\");\r\n\r\n// h1.textContent = \"Hello world from JS\";\r\n\n\n//# sourceURL=webpack://webpack-practice/./src/modules/header.component.js?");
 
 /***/ })
 

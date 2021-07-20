@@ -1,11 +1,11 @@
-// import $ from "jquery";
+import $ from "jquery";
 
-// $("<h1 />").text("Hello world from JQuery").appendTo($("header"));
+$("<h1 />").text("Hello world from JQuery").appendTo($("header"));
 
-const header = document.querySelector("header");
+// const header = document.querySelector("header");
 
-header.insertAdjacentHTML("afterbegin", "<h1></h1>");
+// header.insertAdjacentHTML("afterbegin", "<h1></h1>");
 
-const h1 = document.querySelector("h1");
+// const h1 = document.querySelector("h1");
 
-h1.textContent = "Hello world from JQuery";
+// h1.textContent = "Hello world from JS";
